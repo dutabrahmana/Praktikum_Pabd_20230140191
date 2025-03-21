@@ -181,8 +181,9 @@ namespace Praktikum_Pabd_20230140191
                                 cmd.Parameters.AddWithValue("@NIM", nim);
                                 int rowsAffected = cmd.ExecuteNonQuery();
 
-                            
-
+                                if (rowsAffected > 0)
+                                {
+                                
        
     }
 }
