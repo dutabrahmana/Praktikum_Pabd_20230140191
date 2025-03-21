@@ -205,7 +205,7 @@ namespace Praktikum_Pabd_20230140191
             {
                 MessageBox.Show("Pilih data yang akan dihapus!", "Peringatan", MessageBoxButtons.OK, MessageBoxIcon.Error );
             }
-        }
+        }.
   
 
 
