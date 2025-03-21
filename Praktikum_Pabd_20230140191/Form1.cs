@@ -138,7 +138,8 @@ namespace Praktikum_Pabd_20230140191
                         cmd.Parameters.AddWithValue("@Telepon", txtTelepon.Text.Trim());
                         cmd.Parameters.AddWithValue("@Alamat", txtAlamat.Text.Trim());
 
-                       
+                        int rowsAffected = cmd.ExecuteNonQuery();
+                        
 }
 
 
