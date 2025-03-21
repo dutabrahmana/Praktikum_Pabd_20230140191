@@ -33,11 +33,11 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textNIM = new System.Windows.Forms.TextBox();
+            this.textNama = new System.Windows.Forms.TextBox();
+            this.textEmail = new System.Windows.Forms.TextBox();
+            this.textTelepon = new System.Windows.Forms.TextBox();
+            this.textAlamat = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -64,6 +64,7 @@
             this.label2.Size = new System.Drawing.Size(44, 16);
             this.label2.TabIndex = 1;
             this.label2.Text = "Nama";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
@@ -73,6 +74,7 @@
             this.label3.Size = new System.Drawing.Size(41, 16);
             this.label3.TabIndex = 2;
             this.label3.Text = "Email";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label4
             // 
@@ -82,6 +84,7 @@
             this.label4.Size = new System.Drawing.Size(49, 16);
             this.label4.TabIndex = 3;
             this.label4.Text = "Alamat";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label5
             // 
@@ -91,41 +94,42 @@
             this.label5.Size = new System.Drawing.Size(58, 16);
             this.label5.TabIndex = 4;
             this.label5.Text = "Telepon";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
-            // textBox1
+            // textNIM
             // 
-            this.textBox1.Location = new System.Drawing.Point(335, 75);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 22);
-            this.textBox1.TabIndex = 5;
+            this.textNIM.Location = new System.Drawing.Point(335, 75);
+            this.textNIM.Name = "textNIM";
+            this.textNIM.Size = new System.Drawing.Size(100, 22);
+            this.textNIM.TabIndex = 5;
             // 
-            // textBox2
+            // textNama
             // 
-            this.textBox2.Location = new System.Drawing.Point(335, 125);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 22);
-            this.textBox2.TabIndex = 6;
+            this.textNama.Location = new System.Drawing.Point(335, 125);
+            this.textNama.Name = "textNama";
+            this.textNama.Size = new System.Drawing.Size(100, 22);
+            this.textNama.TabIndex = 6;
             // 
-            // textBox3
+            // textEmail
             // 
-            this.textBox3.Location = new System.Drawing.Point(335, 182);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 22);
-            this.textBox3.TabIndex = 7;
+            this.textEmail.Location = new System.Drawing.Point(335, 182);
+            this.textEmail.Name = "textEmail";
+            this.textEmail.Size = new System.Drawing.Size(100, 22);
+            this.textEmail.TabIndex = 7;
             // 
-            // textBox4
+            // textTelepon
             // 
-            this.textBox4.Location = new System.Drawing.Point(335, 228);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 22);
-            this.textBox4.TabIndex = 8;
+            this.textTelepon.Location = new System.Drawing.Point(335, 228);
+            this.textTelepon.Name = "textTelepon";
+            this.textTelepon.Size = new System.Drawing.Size(100, 22);
+            this.textTelepon.TabIndex = 8;
             // 
-            // textBox5
+            // textAlamat
             // 
-            this.textBox5.Location = new System.Drawing.Point(335, 280);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 22);
-            this.textBox5.TabIndex = 9;
+            this.textAlamat.Location = new System.Drawing.Point(335, 280);
+            this.textAlamat.Name = "textAlamat";
+            this.textAlamat.Size = new System.Drawing.Size(100, 22);
+            this.textAlamat.TabIndex = 9;
             // 
             // button1
             // 
@@ -183,11 +187,11 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.textAlamat);
+            this.Controls.Add(this.textTelepon);
+            this.Controls.Add(this.textEmail);
+            this.Controls.Add(this.textNama);
+            this.Controls.Add(this.textNIM);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -208,11 +212,11 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox textNIM;
+        private System.Windows.Forms.TextBox textNama;
+        private System.Windows.Forms.TextBox textEmail;
+        private System.Windows.Forms.TextBox textTelepon;
+        private System.Windows.Forms.TextBox textAlamat;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
