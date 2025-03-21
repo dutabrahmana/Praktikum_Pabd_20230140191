@@ -32,6 +32,7 @@ namespace Praktikum_Pabd_20230140191
             txtAlamat.Clear();
 
 
+            txtNIM.Focus();
         }
 
 
