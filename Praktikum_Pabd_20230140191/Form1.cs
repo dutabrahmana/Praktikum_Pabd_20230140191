@@ -23,4 +23,20 @@ namespace Praktikum_Pabd_20230140191
         private void Form1_Load(object sender, EventArgs e)
         {
             LoadData();
-       
+        }
+        private void ClearForm()
+        {
+            txtNIM.Clear();
+            txtNama.Clear();
+            txtEmail.Clear();
+            txtTelepon.Clear();
+            txtAlamat.Clear();
+
+
+            txtNIM.Focus();
+        }
+
+        private void LoadData()
+        {
+        
+
