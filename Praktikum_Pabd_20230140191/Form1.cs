@@ -189,20 +189,10 @@ namespace Praktikum_Pabd_20230140191
                                 }
                                 else
                                 {
-                                
-
-
-        private void Ubah_Click(object sender, EventArgs e)
-        {
-
-        }
-
-       
-    }
-}
-
-
-
-
-
-
+                                    MessageBox.Show("Data Tidak berhasil dihapus", "Kesalahan", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                                }
+                            }
+                        }
+                        catch (Exception ex)
+                        {
+                      
