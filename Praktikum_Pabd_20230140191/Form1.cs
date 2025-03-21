@@ -111,5 +111,6 @@ namespace Praktikum_Pabd_20230140191
                 txtNIM.Text = row.Cells[0].Value.ToString();
                 txtNama.Text = row.Cells[1].Value?.ToString();
                 txtEmail.Text = row.Cells[2].Value?.ToString();
-         
+                txtTelepon.Text = row.Cells[3].Value?.ToString();
+
        
