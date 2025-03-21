@@ -108,6 +108,7 @@ namespace Praktikum_Pabd_20230140191
                 DataGridViewRow row = dgvMahasiswa.Rows[e.RowIndex];
 
                 //Coba gunakan indeks jika "NIM" tidak ditemukan
-          
+                txtNIM.Text = row.Cells[0].Value.ToString();
+              
 
        
