@@ -128,6 +128,7 @@ namespace Praktikum_Pabd_20230140191
                         return;
                     }
 
+                    conn.Open();
               
 
 
