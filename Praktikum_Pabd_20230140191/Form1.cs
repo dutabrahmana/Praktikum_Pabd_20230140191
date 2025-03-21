@@ -178,7 +178,12 @@ namespace Praktikum_Pabd_20230140191
 
                             using (SqlCommand cmd = new SqlCommand(query, conn))
                             {
-                            
+                                cmd.Parameters.AddWithValue("@NIM", nim);
+                                
+                                }
+                              
+
+       
     }
 }
 
