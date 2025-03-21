@@ -122,7 +122,10 @@ namespace Praktikum_Pabd_20230140191
             {
                 try
                 {
-                  
+                    if (txtNIM.Text == "" || txtNama.Text == "" || txtEmail.Text == "" || txtTelepon.Text == "" || txtAlamat.Text == "")
+                    {
+                    
+
 
 
 
