@@ -30,7 +30,13 @@ namespace Praktikum_Pabd_20230140191
 
         }
 
-   
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+     
+    }
 }
 
 
