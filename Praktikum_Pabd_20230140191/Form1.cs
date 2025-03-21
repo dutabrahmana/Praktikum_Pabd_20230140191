@@ -103,6 +103,7 @@ namespace Praktikum_Pabd_20230140191
         }
         private void dgvMahasiswa_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-      
-
+            if (e.RowIndex >= 0)
+            {
+              
        
