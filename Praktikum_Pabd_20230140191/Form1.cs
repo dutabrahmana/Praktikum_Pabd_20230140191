@@ -38,4 +38,11 @@ namespace Praktikum_Pabd_20230140191
 
         private void LoadData()
         {
-           
+            using (SqlConnection conn = new SqlConnection(connectionString))
+            {
+              
+
+
+
+
+
