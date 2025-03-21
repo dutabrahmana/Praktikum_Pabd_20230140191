@@ -105,5 +105,9 @@ namespace Praktikum_Pabd_20230140191
         {
             if (e.RowIndex >= 0)
             {
-              
+                DataGridViewRow row = dgvMahasiswa.Rows[e.RowIndex];
+
+                //Coba gunakan indeks jika "NIM" tidak ditemukan
+          
+
        
