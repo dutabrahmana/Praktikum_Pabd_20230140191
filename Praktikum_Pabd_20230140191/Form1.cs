@@ -42,4 +42,11 @@ namespace Praktikum_Pabd_20230140191
             {
                 try
                 {
-                   
+                    conn.Open();
+             
+             
+
+
+
+
+
