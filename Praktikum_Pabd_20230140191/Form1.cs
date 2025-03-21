@@ -27,13 +27,7 @@ namespace Praktikum_Pabd_20230140191
         {
             txtNIM.Clear();
             txtNama.Clear();
-            txtEmail.Clear();
-            txtTelepon.Clear();
-            txtAlamat.Clear();
-
-            txtNIM.Focus();
-        }
-
+        
 
 
         private void label1_Click(object sender, EventArgs e)
