@@ -40,7 +40,9 @@ namespace Praktikum_Pabd_20230140191
 
         }
 
-      
+        private void label4_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
