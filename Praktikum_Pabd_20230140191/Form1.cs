@@ -16,4 +16,6 @@ namespace Praktikum_Pabd_20230140191
         private string connectionString = "Data Source=LAPTOP-KJQI23G9\\DUTA;Initial Catalog=OrganisasiMahasiswa;Integrated Security=True";
 
 
-      
+        public Form1()
+        {
+           
