@@ -95,6 +95,6 @@ namespace Praktikum_Pabd_20230140191
 
         private void Refresh_Click(object sender, EventArgs e)
         {
-        
+            LoadData();
 
-       
+            
