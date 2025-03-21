@@ -22,4 +22,5 @@ namespace Praktikum_Pabd_20230140191
         }
         private void Form1_Load(object sender, EventArgs e)
         {
-         
+            LoadData();
+       
