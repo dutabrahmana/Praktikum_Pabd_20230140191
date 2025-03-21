@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -21,7 +22,7 @@ namespace Praktikum_Pabd_20230140191
         }
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            LoadData();
         }
         private void ClearForm()
         {
@@ -35,64 +36,6 @@ namespace Praktikum_Pabd_20230140191
             txtNIM.Focus();
         }
 
-
-        private void label1_Click(object sender, EventArgs e)
+        private void LoadData()
         {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            
-
-        }
-
-        private void Refresh_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Tambah_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Hapus_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Ubah_Click(object sender, EventArgs e)
-        {
-
-        }
-
-       
-    }
-}
-
-
-
-
-
-
+           
