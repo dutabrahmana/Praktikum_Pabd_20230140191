@@ -183,7 +183,10 @@ namespace Praktikum_Pabd_20230140191
 
                                 if (rowsAffected > 0)
                                 {
-                                
+                                    MessageBox.Show("Data Berhasil dihapus!", "Sukses", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                   
+                              
+
        
     }
 }
