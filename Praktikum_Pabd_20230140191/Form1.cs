@@ -170,8 +170,9 @@ namespace Praktikum_Pabd_20230140191
                 {
                     using (SqlConnection conn = new SqlConnection(connectionString))
                     {
-                      
-                            
+                        try
+                        {
+                           
     }
 }
 
