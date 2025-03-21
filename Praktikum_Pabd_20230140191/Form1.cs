@@ -11,4 +11,5 @@ using System.Windows.Forms;
 
 namespace Praktikum_Pabd_20230140191
 {
-   
+    public partial class Form1 : Form
+
