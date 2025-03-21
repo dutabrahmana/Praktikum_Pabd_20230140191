@@ -109,6 +109,7 @@ namespace Praktikum_Pabd_20230140191
 
                 //Coba gunakan indeks jika "NIM" tidak ditemukan
                 txtNIM.Text = row.Cells[0].Value.ToString();
+                txtNama.Text = row.Cells[1].Value?.ToString();
               
 
        
