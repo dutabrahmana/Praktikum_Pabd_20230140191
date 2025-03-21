@@ -51,8 +51,9 @@ namespace Praktikum_Pabd_20230140191
                     dgvMahasiswa.AutoGenerateColumns = true;
                     dgvMahasiswa.DataSource = dt;
 
-        
-
+                    ClearForm();
+                }
+            
 
 
        
