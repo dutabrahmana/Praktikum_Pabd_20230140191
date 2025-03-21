@@ -118,7 +118,9 @@ namespace Praktikum_Pabd_20230140191
 
         private void Tambah_Click(object sender, EventArgs e)
         {
-          
+            using (SqlConnection conn = new SqlConnection(connectionString))
+            {
+               
 
 
 
