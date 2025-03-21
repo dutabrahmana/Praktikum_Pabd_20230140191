@@ -198,10 +198,15 @@ namespace Praktikum_Pabd_20230140191
                             MessageBox.Show("Error: " + ex.Message, "Kesalahan", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         }
 
-           
-       
-    }
-}
+                    }
+                }
+            }
+            else
+            {
+                MessageBox.Show("Pilih data yang akan dihapus!", "Peringatan", MessageBoxButtons.OK, MessageBoxIcon.Error );
+            }
+        }
+  
 
 
 
