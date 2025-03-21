@@ -172,8 +172,9 @@ namespace Praktikum_Pabd_20230140191
                     {
                         try
                         {
-                           
-    }
+                            string nim = dgvMahasiswa.SelectedRows[0].Cells["NIM"].Value.ToString();
+                         
+
 }
 
 
