@@ -19,6 +19,22 @@ namespace Praktikum_Pabd_20230140191
         {
             InitializeComponent();
         }
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+        private void ClearForm()
+        {
+            txtNIM.Clear();
+            txtNama.Clear();
+            txtEmail.Clear();
+            txtTelepon.Clear();
+            txtAlamat.Clear();
+
+            txtNIM.Focus();
+        }
+
+
 
         private void label1_Click(object sender, EventArgs e)
         {
@@ -44,8 +60,39 @@ namespace Praktikum_Pabd_20230140191
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            
+
+        }
+
+        private void Refresh_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Tambah_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Hapus_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Ubah_Click(object sender, EventArgs e)
+        {
+
+        }
+
+       
     }
 }
+
+
+
 
 
 
