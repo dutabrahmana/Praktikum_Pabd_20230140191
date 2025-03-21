@@ -134,7 +134,9 @@ namespace Praktikum_Pabd_20230140191
                     {
                         cmd.Parameters.AddWithValue("@NIM", txtNIM.Text.Trim());
                         cmd.Parameters.AddWithValue("@Nama", txtNama.Text.Trim());
-
+                        cmd.Parameters.AddWithValue("@Email", txtEmail.Text.Trim());
+                      
+}
 
 
 
