@@ -28,8 +28,8 @@ namespace Praktikum_Pabd_20230140191
             txtNIM.Clear();
             txtNama.Clear();
             txtEmail.Clear();
+            txtTelepon.Clear();
             
-            txtNIM.Focus();
         }
 
 
