@@ -18,4 +18,6 @@ namespace Praktikum_Pabd_20230140191
 
         public Form1()
         {
-           
+            InitializeComponent();
+        }
+        
