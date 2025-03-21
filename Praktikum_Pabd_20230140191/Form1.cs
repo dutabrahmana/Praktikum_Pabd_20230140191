@@ -130,17 +130,9 @@ namespace Praktikum_Pabd_20230140191
 
                     conn.Open();
                     string query = "INSERT INTO Mahasiswa (NIM, Nama, Email, Telepon, Alamat) VALUES (@NIM, @Nama, @Email, @Telepon, @Alamat)";
-                    
-                catch (Exception ex)
-                {
-                    MessageBox.Show("Error: " + ex.Message, "Kesalahan", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
-            }
-        }
-
-
-    }
-}
+                    using (SqlCommand cmd = new SqlCommand(query, conn))
+                    {
+                     
 
 
 
