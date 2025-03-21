@@ -185,7 +185,9 @@ namespace Praktikum_Pabd_20230140191
                                 {
                                     MessageBox.Show("Data Berhasil dihapus!", "Sukses", MessageBoxButtons.OK, MessageBoxIcon.Information);
                                     LoadData();
-                                 
+                                    ClearForm();
+                                }
+                              
 
        
     }
